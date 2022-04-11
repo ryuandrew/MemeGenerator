@@ -1,0 +1,23 @@
+{
+  "name": "project-1-team-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuandrew/Project-1-Team-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryuandrew/Project-1-Team-13/issues"
+  },
+  "homepage": "https://github.com/ryuandrew/Project-1-Team-13#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

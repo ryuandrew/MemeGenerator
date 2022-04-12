@@ -11,7 +11,7 @@
 
 <h1 class="font-medium bg-gradient-to-r from-indigo-500 h-45 text-center leading-tight text-5xl mt-0 mb-2 text-black-600">MEME GENERATOR</h1>
 
-<body class="bg-indigo-500 text-center">
+<body class="bg-indigo-500 text-center cursor-{style}">
  
 <div class="memepage">
    <center> <img src="https://aws1.discourse-cdn.com/codecademy/original/5X/3/c/8/5/3c85feecb4eb52a4d69ef0891cfbc495a1da7174.png">
@@ -19,19 +19,235 @@
 </div>
 
 <br>
-    <label class="font-medium">Choose an image!</label>
+    <!-- <label class="font-medium">Choose an image!</label> -->
     <br>
-        <input type="file"  id="imagefile">
+        <!-- <input type="file"  id="imagefile"> -->
+        <div class="flex justify-center">
+            <div>
+              <div class="dropdown relative">
+                <button
+                  class="
+                    dropdown-toggle
+                    px-6
+                    py-2.5
+                    bg-blue-600
+                    text-white
+                    font-medium
+                    text-xs
+                    leading-tight
+                    uppercase
+                    rounded
+                    shadow-md
+                    hover:bg-blue-700 hover:shadow-lg
+                    focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+                    active:bg-blue-800 active:shadow-lg active:text-white
+                    transition
+                    duration-150
+                    ease-in-out
+                    flex
+                    items-center
+                    whitespace-nowrap
+                  "
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Choose An Image
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="caret-down"
+                    class="w-2 ml-2"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  class="
+                    dropdown-menu
+                    min-w-max
+                    absolute
+                    hidden
+                    bg-white
+                    text-base
+                    z-50
+                    float-left
+                    py-2
+                    list-none
+                    text-left
+                    rounded-lg
+                    shadow-lg
+                    mt-1
+                    hidden
+                    m-0
+                    bg-clip-padding
+                    border-none
+                  "
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-4
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="#"
+                      >Meme1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-4
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="#"
+                      >Meme2</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-4
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="#"
+                      >Meme3</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
     <label></label>
     <br>
-         <input type="text" id="toptext">
+         <input type="text" placeholder="Top Text" id="toptext">
     <label></label>
-        <input type="text" id="bottomtext">
+        <input type="text" placeholder="Bottom Text" id="bottomtext">
 </br>
 </br>
 </br>
 
 </div>
+<!-- <div class="flex flex-wrap justify-center">
+    <img
+    src="https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+    alt=""
+  />
+  <img
+    src="https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s1100-c50.jpg"
+    class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+    alt=""
+  />
+  <img
+    src="https://www.dictionary.com/e/wp-content/uploads/2021/02/20210202_atw_stonks_800x800.png"
+    class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+    alt=""
+  />
+  <img
+  src="https://www.meme-arsenal.com/memes/a41540376aaee4d29ebbbd57cbc3993a.jpg"
+  class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+  alt=""
+/>
+<img
+src="https://i.pinimg.com/originals/dc/7e/bb/dc7ebb146f0b9d7843a39f78e0719c1e.jpg"
+class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+alt=""
+/>
+<img
+src="https://memetemplates.in/uploads/1641286889.png"
+class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+alt=""
+/>
+<img
+src="https://imgflip.com/s/meme/Left-Exit-12-Off-Ramp.jpg"
+class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+alt=""
+/>
+<img
+src="https://imgflip.com/s/meme/Change-My-Mind.jpg"
+class="p-1 bg-white border rounded max-w-sm w-20 h-20"
+alt=""
+/> -->
+<section class="overflow-hidden text-gray-700 ">
+    <div class="container px-5 py-2 mx-auto lg:pt-6 lg:px-20">
+      <div class="flex flex-wrap -m-1 md:-m-2">
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://imgflip.com/s/meme/Change-My-Mind.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s1100-c50.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://www.dictionary.com/e/wp-content/uploads/2021/02/20210202_atw_stonks_800x800.png">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://imgflip.com/s/meme/Left-Exit-12-Off-Ramp.jpg">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+              src="https://i.kym-cdn.com/entries/icons/mobile/000/022/134/elmo.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
  <script src="./assets/script.js"></script>
  <!-- <center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2ApUZphb6vYedEnyoTQ3jWAsNoe6BVu5FA&usqp=CAU" alt="ad">
 </center> -->

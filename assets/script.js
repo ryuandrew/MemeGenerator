@@ -72,4 +72,14 @@ fetch(memeUrl).then(function(response) {
 
 
 //display image by calling the name from a drop down menu
+<<<<<<< HEAD
 //need a button to post
+=======
+//top 100 meme will be updated thruout time
+//we want to grab the top 10. [0,1,2,3,4,5,6,7,8,9]
+//make a variable for name and have it display it on the drop down menu
+//when we click the name of the meme from the drop down menu, the image displays on page
+//then we want to input a text to show up on the image to create a meme
+//each image we select the text will reset
+
+>>>>>>> dev

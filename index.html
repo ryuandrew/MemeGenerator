@@ -15,11 +15,11 @@
 <body class="bg-indigo-500 text-center cursor-{style}">
  
 <div class="memepage">
-  <div>top text</div>
-   <center> <img id='memeUrl' src="https://aws1.discourse-cdn.com/codecademy/original/5X/3/c/8/5/3c85feecb4eb52a4d69ef0891cfbc495a1da7174.png">
+    <div id="displayTopText"></div>
+    <center> <img id='memeUrl' src="https://aws1.discourse-cdn.com/codecademy/original/5X/3/c/8/5/3c85feecb4eb52a4d69ef0891cfbc495a1da7174.png">
     </center>
+    <div id="displayBottomText"></div>
 </div>
-<div>bottom text</div>
 
 <br>
     <!-- <label class="font-medium">Choose an image!</label> -->
@@ -42,16 +42,58 @@
                 </form>
                 
 
+<!-- delete start -->
+
+<!-- MEME Display -->
+<!-- <div class="container">
+  <div class="row text-center">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <div id="meme"></div>
+      <h2 id="top-text"></h2>
+      <h2 id="btm-text"></h2>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</div> -->
+
+<!-- MEME Controls -->
+<!-- <div id="meme-controls" class="container">
+  <div class="row text-center">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+    <input type="text" id="top-text-input" class="form-control" placeholder="Top Text Goes Here."><br>
+    <input type="text" id="btm-text-input" class="form-control" placeholder="Bottom Text Goes Here."><br>
+    <div class="col-sm-3"></div>
+  </div>
+</div> -->
+
+<!-- MEME Sample Photos-->
+<!-- <div id="meme-samples" class="container">
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <img src="https://makeameme.org/media/templates/250/willy_wonka_sarcasm_meme.jpg" data-src="<img src='https://makeameme.org/media/templates/250/willy_wonka_sarcasm_meme.jpg'>">
+    </div>
+    <div class="col-sm-4">
+      <img src="https://makeameme.org/media/templates/250/game_of_thrones_meme.jpg" data-src="<img src='https://makeameme.org/media/templates/250/game_of_thrones_meme.jpg'>">
+    </div>
+    <div class="col-sm-4">
+      <img src="https://makeameme.org/media/templates/250/the_most_interesting_man_in_the_world.jpg" data-src="<img src='https://makeameme.org/media/templates/250/the_most_interesting_man_in_the_world.jpg'>">
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+<!-- delete end -->
 
 
-
-
-    <br>
-         <input type="text" placeholder="Top Text" id="toptext">
-
-        <input type="text" placeholder="Bottom Text" id="bottomtext">
-
-
+<br>
+<form id="input-group">
+        <input type="text" placeholder="Top Text" id="topText">
+        <input type="text" placeholder="Bottom Text" id="bottomText">
+        <button type="button" id="uploadText" class="btn btn-primary">Upload Text</button>
+</form>
 </br>
 </br>
 </br>
@@ -100,6 +142,13 @@ src="https://imgflip.com/s/meme/Change-My-Mind.jpg"
 class="p-1 bg-white border rounded max-w-sm w-20 h-20"
 alt=""
 />
+
+<br>
+
+<div>
+  <h2 id="displayJoke">display joke</h2>
+</div>
+
 
 <!-- <section class="overflow-hidden text-gray-700 ">
   

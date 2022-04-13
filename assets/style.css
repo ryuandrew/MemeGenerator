@@ -1,3 +1,30 @@
+.memepage {
+  position: relative;
+  text-align: center;
+  color: gray;
+}
+
+#displayBottomText {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 2em;
+}
+#displayTopText{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+
+
+
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;

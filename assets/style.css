@@ -73,3 +73,26 @@
     font-size: 35px;
     cursor: pointer;
   }
+  .memepage {
+    position: relative;
+    text-align: center;
+    color: white;}
+
+  .bottom {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .top{
+    
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer{
+    padding-bottom:3%;
+  }

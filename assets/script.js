@@ -27,7 +27,7 @@ fetch(memeUrl).then(function(response) {
     // console.log(data.data.memes[0].url)
 
     //grabbing the name and url of the image 
-    for (var i = 0; i < 25; i++) {
+    for (var i = 0; i < 100; i++) {
         var buttonInfo = data.data.memes[i].name  //image name from api
         var buttonUrl = data.data.memes[i].url  //image url from api
         var optionEl = $('<option>')  //create a new tag. <select> tag needs an <option> tag as a child

@@ -1,32 +1,50 @@
 body {
-    background-color: rgb(147, 224, 235);
+  /* background-color: rgb(147, 224, 235); */
+  /* background-color: transparent; */
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 25px;
+  font-family: impact;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 white,
+  -2px 2px 0 white,
+  2px -2px 0 white,
+  -2px 2px 0 white,
+  0px 2px 0 white,
+  2px 0px 0 white,
+  0px -2px 0 white,
+  -2px 0px 0 white,
+  2px 2px 5px white;
 }
 
 #dadJoke {
-    font-size: 22px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
 }
 
 #memeUrl {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
 
 .btn {
-    background-color: rgb(5, 5, 5);
-    border: none;
-    color: rgb(250, 249, 249);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
+  background-color: rgb(5, 5, 5);
+  border: none;
+  color: rgb(250, 249, 249);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
 }
+
 .memepage {
   position: relative;
   text-align: center;
@@ -35,24 +53,45 @@ h1 {
 
 #displayBottomText {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: sans-serif;
-  font-size: 2em;
+  font-family: impact;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000,
+  -2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
 }
+
 #displayTopText{
   position: absolute;
-  top: 93%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: sans-serif;
-  font-size: 2em;
+  font-family: impact;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000,
+  -2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
 }
-
-
-
-
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
@@ -61,51 +100,51 @@ h1 {
     padding: 10px;
   }
   
-  /* Style the images inside the grid */
-  .column img {
-    opacity: 0.8;
-    cursor: pointer;
-    border-radius: 16px;
-  }
-  .btn:hover {
-    background-color:rgba(82, 213, 17, 0.8);
-  }
-
-  input {
-    border: 1px solid #000;
-    width: 200px;
-    padding: 20px;
-    font-size: 20px;
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 16px;
 }
 
+.btn:hover {
+  background-color:rgba(82, 213, 17, 0.8);
+}
+
+input {
+  border: 1px solid #000;
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+}
 
 #topText::-webkit-input-placeholder {
-
- border-style:solid;
-border-width:medium;
+  border-style:solid;
+  border-width:medium;
 }
 
 #bottomText::-webkit-input-placeholder {
-
-    border-style:solid;
-   border-width:medium;
-   }
-
-  input[type=submit] {
-    background-color: rgb(3, 3, 3);
-    border: none;
-    color: rgb(250, 249, 249);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-  }
-  input[type=submit]:hover {
-    background-color:rgba(85, 255, 0, 0.8);
+  border-style:solid;
+  border-width:medium;
 }
+
+input[type=submit] {
+  background-color: rgb(3, 3, 3);
+  border: none;
+  color: rgb(250, 249, 249);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+input[type=submit]:hover {
+  background-color:rgba(85, 255, 0, 0.8);
+}
+
   /* }
   .memepage {
     position: relative;

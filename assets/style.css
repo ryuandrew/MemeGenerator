@@ -1,6 +1,4 @@
 body {
-  /* background-color: rgb(147, 224, 235); */
-  /* background-color: transparent; */
   background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 
@@ -93,22 +91,12 @@ h1 {
   2px 2px 5px #000;
 }
 
-/* The grid: Four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
-  
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-  border-radius: 16px;
+.btn:hover {
+  background-image: linear-gradient(to right, #B7F8DB, #80d0c7);
 }
 
-.btn:hover {
-  background-color:rgba(82, 213, 17, 0.8);
+input[type=submit]:hover {
+  background-image: linear-gradient(to right, #B7F8DB, #80d0c7);
 }
 
 input {
@@ -140,32 +128,3 @@ input[type=submit] {
   cursor: pointer;
   border-radius: 16px;
 }
-
-input[type=submit]:hover {
-  background-color:rgba(85, 255, 0, 0.8);
-}
-
-  /* }
-  .memepage {
-    position: relative;
-    text-align: center;
-    color: white;}
-
-  .bottom {
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-  .top{
-    
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  footer{
-    padding-bottom:3%;
-  } */

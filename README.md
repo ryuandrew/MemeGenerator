@@ -1,14 +1,19 @@
-# Project-1-Team-13 Meme Generator
+# Project-1-Meme Generator
+
+## LINKS:
+```
+* [Deployed](https://ryuandrew.github.io/Project-1-Team-13/)
+* [GitHub](https://github.com/ryuandrew/Project-1-Team-13)
+```
 
 
-
-## Project Outline
+## PROJECT OUTLINE:
 ```
 Customer wants a way to drive traffic to their website. A meme generator with daily jokes fullfills this objective.
 ```
 
 
-## AS A USER:
+## USER STORY:
 ```
 AS A USER I want to be able to select a recent trending meme and insert my own punchline, as well as have a fresh joke for the watercooler.
 
@@ -18,7 +23,7 @@ SO THAT I have a fresh short and silly joke available to break the ice with clie
 ```
 
 
-## THE PROJECT IS FINISHED WHEN: 
+## TECHNOLOGIES USED: 
 ```
 ## The APIs used to create the page will be:
 
@@ -29,11 +34,18 @@ SO THAT I have a fresh short and silly joke available to break the ice with clie
 ## Styling
 
 ✅ The site will be styled using the CSS framework [Tailwind](https://tailwindcss.com/)
-
-## Wireframe 
-
-✅ [Meme Generator](img/wireframe.png)
 ```
 
 
-## DEMO
+## WIRE FRAME
+![](./img/Wire-Frame.png)
+
+---
+
+## WORK IN PROGRESS
+![](./img/Working-Progress.png)
+
+---
+
+## FINAL DEPLOYED
+![](./img/MEME%20GENERATOR.gif)

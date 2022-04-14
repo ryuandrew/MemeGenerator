@@ -5,6 +5,12 @@ body {
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+#dadJoke {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #memeUrl {
     height: 250px;
     width: 250px;
@@ -19,6 +25,45 @@ h1 {
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
+    border-radius: 16px;
+}
+.memepage {
+  position: relative;
+  text-align: center;
+  color: rgb(4, 3, 3);
+}
+
+#displayBottomText {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 2em;
+}
+#displayTopText{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
     cursor: pointer;
     border-radius: 16px;
   }
@@ -61,3 +106,27 @@ border-width:medium;
   input[type=submit]:hover {
     background-color:rgba(85, 255, 0, 0.8);
 }
+  /* }
+  .memepage {
+    position: relative;
+    text-align: center;
+    color: white;}
+
+  .bottom {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .top{
+    
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer{
+    padding-bottom:3%;
+  } */

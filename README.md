@@ -2,8 +2,8 @@
 
 ## LINKS:
 ```
-* [Deployed](https://ryuandrew.github.io/Project-1-Meme-Generator)
-* [GitHub](https://github.com/ryuandrew/Project-1-Meme-Generator)
+* [Deployed](https://ryuandrew.github.io/Project-1-Team-13)
+* [GitHub](https://github.com/ryuandrew/Project-1-Team-13)
 ```
 
 
@@ -40,12 +40,9 @@ SO THAT I have a fresh short and silly joke available to break the ice with clie
 ## WIRE FRAME
 ![](./img/Wire-Frame.png)
 
----
-
-## WORK IN PROGRESS
-![](./img/Working-Progress.png)
 
 ---
+
 
 ## FINAL DEPLOYED
 ![](./img/MEME%20GENERATOR.gif)

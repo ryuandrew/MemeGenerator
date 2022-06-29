@@ -2,8 +2,8 @@
 
 ## LINKS:
 ```
-* [Deployed](https://ryuandrew.github.io/Project-1-Team-13)
-* [GitHub](https://github.com/ryuandrew/Project-1-Team-13)
+* [Deployed](https://ryuandrew.github.io/MemeGenerator)
+* [GitHub](https://github.com/ryuandrew/MemeGenerator)
 ```
 
 
